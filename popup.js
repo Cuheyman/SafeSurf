@@ -4,11 +4,11 @@ document.getElementById('reportSite').addEventListener('click', function() {
     // Implement the functionality to report a site
     console.log("I HAVE BEEN PRESSED.")
 });
-
+// Function to go home
 document.getElementById('goToHomepage').addEventListener('click', function() {
     window.open('https://safesurf.com', '_blank');
 });
-
+// Function if the user wants to scan a Site
 document.getElementById('scanSite').addEventListener('click', function() {
     chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
         var activeTab = tabs[0];
