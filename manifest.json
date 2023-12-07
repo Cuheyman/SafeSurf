@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "SafeSurf",
+    "description": "Scanning threats",
+    "version": "1.0",
+    "permissions": [
+        "tabs", "activeTab", "<all_urls>", "notifications"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "hello.html",
+        "default_icon": "logo.png"
+    },
+    "web_accessible_resources": [
+      {
+        "resources": ["warning.js"],
+        "matches": ["<all_urls>"]
+      }
+    ]
+  }
+  

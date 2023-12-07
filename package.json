@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^6.2.0",
+    "node": "^21.1.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "afgangsprojekt-udvikling",
+  "version": "1.0.0",
+  "main": "popup.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Warning</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+       body{
+        margin: 0;
+        padding: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: red;
+       }
+
+       .container{
+        width: 100vh;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: auto;
+        
+       }
+       .logo{
+        border-radius:10%;
+        margin-right: 30vh;
+        align-items: center;
+        margin: auto;
+        width: 30vh;
+        margin-top: 10vh;
+       }
+      h1{
+        margin: auto;
+        width: 50vh;
+        margin-top: 0;
+      }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="logo.png" alt="SafeSurf Logo" class="logo">
+    </div>
+    <h1 id="warning-message">You have been redirected here for security purposes, due to a malicious website approach. 
+        <span id="malicious-url" style="color: white"></span>
+    </h1>
+   <script src="warning.js"></script>
+</body>
+</html>
