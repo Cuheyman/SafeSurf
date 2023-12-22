@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Show Students</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Font Awesome Cdn Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+<body>
+  <di class="container">
+    <nav>
+      <div class="navbar">
+        <div class="logo">
+          <img src="/img/hafid.png" alt="">
+        
+        </div>
+        <ul>
+          <li><a href="#">
+            <i class="fas fa-user"></i>
+            <span class="nav-item">Show Students</span>
+          </a>
+          </li>
+         
+          <li><a href="./students/addstudent.html">
+            <i class="fas fa-users"></i>
+            <span class="nav-item">Add Students</span>
+          </a>
+          </li>
+          <li><a href="#">
+            <i class="fas fa-cog"></i>
+            <span class="nav-item">Setting</span>
+          </a>
+          </li>
+          <li><a href="#">
+            <i class="fas fa-question-circle"></i>
+            <span class="nav-item">Help</span>
+          </a>
+          </li>
+          <li><a href="Index.html" class="logout">
+            <i class="fas fa-sign-out-alt"></i>
+            <span class="nav-item">Logout</span>
+          </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <div id="filterContainer">
+      <label for="classFilter">Filter by Class:</label>
+      <select id="classFilter">
+          <option value="all">All Classes</option>
+          <option value="Class 1">Class 1</option>
+          <option value="Class 2">Class 2</option>
+          <!-- Other class options will be populated dynamically -->
+      </select>
+  </div>
+  
+  
+  
+  <div id="loading">Loading...</div>
+    <div id="studentsContainer">
+        <button id="addStudentsBtn">Add Students</button>
+        <table id="studentsTable">
+            <!-- Table data will be populated here -->
+        </table>
+    </div>
+    
+    <script src="showStudents.js"></script>
+
+</body>
+</html>

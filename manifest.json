@@ -4,18 +4,18 @@
     "description": "Scanning threats",
     "version": "1.0",
     "permissions": [
-        "tabs", "activeTab", "<all_urls>", "notifications"
+        "tabs", "activeTab", "<all_urls>", "notifications", "scripting"
     ],
     "background": {
-        "service_worker": "background.js"
+        "service_worker": "js/background.js"
     },
     "action": {
-        "default_popup": "hello.html",
+        "default_popup": "index.html",
         "default_icon": "logo.png"
     },
     "web_accessible_resources": [
       {
-        "resources": ["warning.js"],
+        "resources": ["js/warning.js", "safePopup.html", "logo.png"],
         "matches": ["<all_urls>"]
       }
     ]
