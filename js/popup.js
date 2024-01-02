@@ -8,7 +8,7 @@ document.getElementById('reportSite').addEventListener('click', function() {
 });
 
 document.getElementById('goToHomepage').addEventListener('click', function() {
-    window.open('https://safesurf.com', '_blank');
+    window.open('dashboard.html', '_blank');
 });
 
 document.getElementById('checkSafeSite').addEventListener('click', function() {

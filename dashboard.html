@@ -5,68 +5,77 @@
   <link rel="stylesheet" href="styles.css" />
   <!-- Font Awesome Cdn Link -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <script src="https://kit.fontawesome.com/42a26f5256.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <di class="container">
     <nav>
       <div class="navbar">
         <div class="logo">
-          <img src="/img/hafid.png" alt="">
+          <img src="logo.png" alt="">
         
         </div>
-        <ul>
-          <li><a href="#">
-            <i class="fas fa-user"></i>
-            <span class="nav-item">Show Students</span>
-          </a>
-          </li>
-         
-          <li><a href="./students/addstudent.html">
-            <i class="fas fa-users"></i>
-            <span class="nav-item">Add Students</span>
-          </a>
-          </li>
-          <li><a href="#">
-            <i class="fas fa-cog"></i>
-            <span class="nav-item">Setting</span>
-          </a>
-          </li>
-          <li><a href="#">
-            <i class="fas fa-question-circle"></i>
-            <span class="nav-item">Help</span>
-          </a>
-          </li>
-          <li><a href="Index.html" class="logout">
-            <i class="fas fa-sign-out-alt"></i>
-            <span class="nav-item">Logout</span>
-          </a>
-          </li>
-        </ul>
+        <ul> 
+
+          <li><a href="threats.html">
+        
+          <i class="fas fa-biohazard"></i>
+          <span class="nav-item" >Threats</span>
+        </a>
+        </li>
+        <li><a href="#">
+          <i class="fas fa-user"></i>
+          <span class="nav-item" >Contact</span>
+        </a>
+        </li>
+        <li><a href="#">
+          <i class="fa-solid fa-info" ></i>
+          <span class="nav-item" >Info</span>
+        </a>
+        </li>
+
+        <li><a href="#">
+          <i class="fas fa-cog"></i>
+          <span class="nav-item" >Setting</span>
+        </a>
+        </li>
+       
+        <li><a href="https://www.google.dk" class="logout">
+          <i class="fas fa-sign-out-alt"></i>
+          <span class="nav-item">Logout</span>
+        </a>
+        </li>
+      </ul>
       </div>
     </nav>
 
 
-    <div id="filterContainer">
-      <label for="classFilter">Filter by Class:</label>
-      <select id="classFilter">
-          <option value="all">All Classes</option>
-          <option value="Class 1">Class 1</option>
-          <option value="Class 2">Class 2</option>
-          <!-- Other class options will be populated dynamically -->
-      </select>
-  </div>
-  
-  
-  
-  <div id="loading">Loading...</div>
-    <div id="studentsContainer">
-        <button id="addStudentsBtn">Add Students</button>
-        <table id="studentsTable">
-            <!-- Table data will be populated here -->
-        </table>
+    <div class="content">
+        <h1>Welcome to SafeSurf! </h1>
+
+        <div class="undertitle"><h2>Your Trusted Companion for a Safer Browsing Experience</h2></div> 
+        
+        <div class="video-content">
+          <video width = "400" height="300" controls src="video.mp4">
+        <video src="video.mp4"></video>
+        </div>
+      <div class="descrip">
+        
+        <p>At SafeSurf, we understand the importance of online safety in todays digital world. Our mission is to provide you with a secure browsing environment, protecting you from malicious websites and online threats. With SafeSurf, you can navigate the internet with confidence, knowing that your online security is our top priority.</p>
+        
+      </div>
     </div>
+
     
-    <script src="showStudents.js"></script>
+  
+
+
+    
+  
+  
+ 
+    
 
 </body>
 </html>
