@@ -59,8 +59,8 @@
                 return; 
             }
 
-            var apiKey = 'AIzaSyAaBrAAp4eJ8NuwZH5ut6qyDX1yB4vOOfU';
-            var apiURL = 'https://safebrowsing.googleapis.com/v4/threatMatches:find?key=' + apiKey;
+            var apiKey = 'insert your key';
+            var apiURL = 'use the apis url' + apiKey;
 
             var requestBody = {
                 client: {
